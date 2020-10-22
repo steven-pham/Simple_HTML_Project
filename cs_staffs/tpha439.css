@@ -1,0 +1,31 @@
+.tab{
+    font-size: xx-large;
+    text-align: center;
+}
+
+hr#titleBreak{
+    border: 2px solid black;
+    width: 90%;
+}
+#home div img{
+    max-width: 50%;
+}
+hr{
+    width:50%;
+    color:darkgrey;
+}
+
+#listStaff li{
+    display: flex;
+    align-items: center;
+}
+#listStaff img{
+    max-height: 30%;
+    max-width: 30%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#listStaff p{
+    margin:0%;
+    font-size: 3vw;
+}

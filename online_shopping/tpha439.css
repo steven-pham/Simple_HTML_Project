@@ -1,0 +1,73 @@
+.logo{
+    font-size: xx-large;
+    text-align: center;
+}
+
+hr.titleBreak{
+    border: 2px solid black;
+    width: 90%;
+}
+hr{
+    width:50%;
+    color:darkgrey;
+}
+img.map{
+    max-width: 99%;
+    max-height: 100vh;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+div#vCard{
+    background-color:lightgrey;
+    margin: auto;
+    border-radius:25px;
+    width:95%;
+    padding: 5px;
+    
+}
+div#vCard table{
+    width: inherit;
+}
+
+input#myInput{
+    background-color: darkgrey;
+    min-width: 90%;
+}
+#listItems li{
+    display: flex;
+    align-items: center;
+}
+#listItems img{
+    max-height: 30%;
+    max-width: 30%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#listItems p{
+    margin:0%;
+    font-size: 3vw;
+}
+#listItems button{
+    margin-top: 3vw;
+    margin-bottom:4vw;
+    font-size: 3vw;
+}
+
+
+#newsList li{
+    display: block;
+    align-items: center;
+}
+#newsList img{
+    max-height: 50%;
+    max-width: 50%;
+    margin-bottom: 10px;
+}
+#newsList p {
+    margin-top: 0%;
+}
+#newsList div#titleDate{
+    display: flex;
+    align-items: center;
+}

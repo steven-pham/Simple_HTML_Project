@@ -1,0 +1,54 @@
+.tab{
+    font-size: xx-large;
+    text-align: center;
+}
+
+hr#titleBreak{
+    border: 2px solid black;
+    width: 90%;
+}
+
+hr{
+    width:50%;
+    color:darkgrey;
+}
+
+#listCourse table{
+    width: 100%;
+    align-items: center;
+}
+
+#listCourse p{
+    margin:0%;
+}
+
+#subject{
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+#title{
+    background-color: blue;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#desc{
+    background-color: darkgrey;
+    padding: 10px;
+}
+#req{
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+
+
+
+
+
+

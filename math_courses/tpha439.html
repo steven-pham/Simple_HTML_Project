@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Department of Mathematics</title>
+        <link href="tpha439.css" rel="stylesheet" type="text/css"/>
+        <script defer="true" src="tpha439.js"></script>
+    </head>
+    <body>
+        <table width="100%" style="text-align: center;">
+            <tr style="cursor: pointer;">
+                <td class="tab" id="courseTab" onclick="showTab(0); getAllCourses();">Courses</td>
+                <td class="tab" id="infoTab" onclick="showTab(1); info()">Infographics</td>
+            </tr>
+        </table>
+
+        <hr id="titleBreak">
+
+        <div id="course">
+            
+            <ol id="listCourse">
+                <!--<table>
+                    <tbody>
+                        <tr>
+                            <td >
+                                <p id="subject" >MATHS 102</p>
+
+                                <p id="title">
+                                    Function in Mathematic
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td id="desc">
+                                An introduction to calcul
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td id="req">
+                                Restriction: MATHS 102 may not be take
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <hr>-->
+            </ol>
+
+        </div>
+
+        <div id="info">
+            <p id="att"></p>
+
+            <svg viewBox="0 0 100 100">
+                <!-- Our symbol in its own coordinate system -->
+                <clipPath id="myClip">
+                </clipPath>
+                <symbol id="myDot" stroke="black" stroke-width="3" fill="red">
+                    <circle cx="10" cy="10" r="1" />
+                </symbol>
+                
+                <!-- All instances of our symbol -->
+                <use xlink:href="#myDot" x="5"  y="5"/>
+                <use xlink:href="#myDot" x="10" y="5"/>
+                <use xlink:href="#myDot" x="15" y="5"/>
+                <use xlink:href="#myDot" x="20" y="5"/>
+                <use xlink:href="#myDot" x="25" y="5"/>
+                <use xlink:href="#myDot" x="30" y="5"/>
+                <use xlink:href="#myDot" x="35" y="5"/>
+                <use xlink:href="#myDot" x="40" y="5"/>
+                <use xlink:href="#myDot" x="45" y="5"/>
+                <use xlink:href="#myDot" x="50" y="5"/>
+            </svg>
+        </div>
+
+
+    </body>
+</html>

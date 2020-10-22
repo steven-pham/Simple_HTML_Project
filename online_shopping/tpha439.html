@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dunedin Dairy</title>
+        <link href="tpha439.css" rel="stylesheet" type ="text/css"/>
+        <script defer="true" src="tpha439.js"></script>
+
+    </head>
+    <body>
+        <table width="100%" style="text-align: center;">
+            <tr style="cursor: pointer;">
+                <td  onclick = "showTab(0);"><img src="http://redsox.uoa.auckland.ac.nz/ds/logo-192x192.png" alt="DD logo here" style="width: 100px;"></td>
+                <td class="logo" id="homeTab"  onclick = "showTab(0);" >🏠</td>
+                <td class="logo" id="productsTab" onclick = "showTab(1); getAllItems()">🛒 </td>
+                <td class="logo" id="newsTab" onclick = "showTab(2); getNews();">📰 </td>
+                <td class="logo" id="locationTab" onclick = "showTab(3); getVcard()">📌 </td>
+                <td class="logo" id="commentsTab" onclick = "showTab(4);">📖 </td>
+            </tr>
+        </table>
+
+        <div id="home">
+            <h1>Dunedin Dairy</h1>
+            <hr class="titleBreak">
+
+            <div>
+                <p>Welcome to the Dunedin Dairy, the leading online dairy shop in New Zealand.
+                    We take pride in sourcing the best dairy products from within New Zealand
+                    and abroad. Our shop is open 24/7, and we strive to deliver your purchase
+                    promptly.
+                </p>
+                <p>
+                    Keeping in mind the safety of you and our staff, our deliveries
+                    are contactless.
+                </p>
+            </div>
+
+            <div style="text-align: center;">
+                <img src="http://pngimg.com/uploads/cow/cow_PNG50618.png" alt="Cow photo here"/>
+                <hr>
+                <p style="font-size: small;">&copy; All rights reserved V1.0.0</p>
+            </div>
+        </div>
+
+        <div id="products">
+            <h1>Products</h1>
+            <hr class="titleBreak">
+            <input type="text" id="myInput" placeholder="&#128269;Search..." oninput="searchFunction()">
+            <ol id="listItems">
+                <!--<li>
+                    <img>
+                    
+                    <span>
+                        <p>Title</p>
+                        <p>Price</p>
+                        <p>Origin</p>
+                        <button></button>
+    
+                    </span>
+                </li>
+                <hr>-->
+            </ol>
+            
+
+
+        </div>
+
+        <div id="news">
+            <h1>News</h1>
+            <hr class="titleBreak">
+            <ol id="newsList">
+                <!--<li>
+                    <img src="https://ichef.bbci.co.uk/news/320/cpsprodpb/72F9/production/_86533492_86533491.jpg">
+                    
+                    <div id="titleDate">
+                        <a href="https://www.huffpost.com/entry/orange-white-cheddar-cheese_l_5d939215e4b0ac3cddaff67c">Title</a>
+                        <p> pubDate </p>
+                    </div>
+    
+                    <div>
+                        <p>Description</p>
+                    </div>
+                    <hr>
+    
+                </li>-->
+    
+            </ol>
+
+        </div>
+
+        <div id="location">
+            <h1>Location</h1>
+            <hr class="titleBreak">
+            <div style="text-align: center;">
+                <img class="map" src="http://redsox.uoa.auckland.ac.nz/ds/map.png" alt="Map"/>
+                <div id="vCard">  
+                    <p id="address">Address</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><a id="email" href="mailto:shop@DunedinDairy.co.nz">Email</a></td>
+                                <td><a id="tel" href="tel:+643-448-6265">number</a></td>
+                            </tr>
+                        </tbody> 
+                    </table>
+                    <p><a href="http://redsox.uoa.auckland.ac.nz/ds/DairyService.svc/vcard">Add us to your address book</a></p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="comments">
+            <h1>Comments</h1>
+            <hr class="titleBreak">
+
+        </div>
+
+
+
+    </body>
+</html>
